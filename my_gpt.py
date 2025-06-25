@@ -12,7 +12,9 @@ file_contents = [
     "file7.txt: Sarah is my old school teacher. She taught me a lot about history.",
     "file8.txt: My best friend, Alice, told me about a new coffee shop downtown. We should check it out.",
     "file9.txt: Robert is a distant relative. We only meet during major family events.",
-    "file10.txt: Alice's favorite color is blue. She also enjoys painting in her free time."
+    "file10.txt: Alice's favorite color is blue. She also enjoys painting in her free time.",
+    "file10.txt: We had a nice time with Geoff Evans in the october 2024",
+    "file10.txt: I visited my Mom in september 2024",
 ]
 
 
@@ -62,7 +64,7 @@ print("Initializing Gpt4All model for chat...")
 # This will download a default model (e.g., 'ggml-gpt4all-j-v1.3-groovy.bin')
 # if it's not already present locally. You can specify a model name if needed.
 # Example: chat_model = gpt4all.Gpt4All("orca-mini-3b-gguf2.q4_0.gguf")
-chat_model = gpt4all.GPT4All("Llama-3.2-3B-Instruct-Q4_0.gguf")
+chat_model = gpt4all.GPT4All("qwen2.5-coder-7b-instruct-q4_0.gguf")
 print("Gpt4All chat model initialized successfully. Type 'exit' to quit.")
 
 # Start an interactive chat session
